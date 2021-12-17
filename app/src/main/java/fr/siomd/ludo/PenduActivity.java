@@ -67,7 +67,7 @@ public class PenduActivity extends AppCompatActivity {
         // afficher le mot en cours
         ui.tvMot.setText(leBourreauClopin.getLeMotEnCours());
         // afficher image pendu du début
-
+        ui.imgPendu.setImageResource(R.drawable.cor0);
         // activer les boutons lettres s'ils ont été désactivés
 
     }
