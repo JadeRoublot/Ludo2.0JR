@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Ludo</string>
+    <string name="menu_settings">Settings</string>
+    <string name="btJouer">Jouer</string>
+    <string name="btNouveauJeu">Nouveau jeu</string>
+    <string name="btAtout">Atout</string>
+    <string name="btJoueur1">Joueur 1</string>
+    <string name="btJoueur2">Joueur 2</string>
+    <string name="btAucunJoueur">Aucun Joueur</string>
+    <string name="txtCarte1">carte du joueur 1</string>
+    <string name="txtCarte2">carte du joueur 2</string>
+    <string name="txtJ1">As de pique : 10 points</string>
+    <string name="txtJ2">7 de coeur : 7 points</string>
+    <string name="txtScore1">0 point</string>
+    <string name="txtScore2">0 point</string>
+    <string name="txtResultat">Qui va gagner les points ?</string>
+    <string name="edtTotalPoints">Total ?</string>
+    <string name="txtReponses">Tes réponses correctes</string>
+    <string name="txtNbRepCorrectes">0 / 26</string>
+    <string name="menu_parametres">Paramètres</string>
+    <string name="menu_chercher">Chercher</string>
+    <string name="menu_compter">Compter</string>
+    <string name="menu_bataille">Bataille</string>
+    <string name="menu_pendu">Pendu</string>
+    <!-- hallow -->
+    <string name="app_name2">Halloween Mathique</string>
+    <string name="btNouveauComptage2">Nouveau Comptage</string>
+    <string name="btDeco2"> </string>
+    <string name="txtCarte22">Carte Citrouille</string>
+    <string name="txtResultat2">Combien il y a de Citrouille?</string>
+    <string name="btValider2">Valider</string>
+    <string name="btJouer2">Jouer</string>
+    <string name="edtNombrecitrouille2"> . . . </string>
+    <string name="txtReponses2">Tes réponses correctes</string>
+    <string name="txtNbRepCorrectes2">0 / 15</string>
+    <!-- préférences-->
+    <string name="prefs_mes_parametres">Mes paramètres</string>
+    <string name="prefs_theme">Thème vert et rose</string>
+    <string name="prefs_nom_joueur">Nom joueur</string>
+    <string name="prefs_non_renseigne">Non renseigné</string>
+    <string name="prefs_mes_scores">Mes scores</string>
+
+    <!-- main-->
+    <string name="txtSalut">Salut</string>
+    <string name="txtPremiereUtilisation">Tu peux mettre à jour tes paramètres.</string>
+</resources>

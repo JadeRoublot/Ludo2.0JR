@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jader/Documents/Travail_Developpement/TravailleDelio 2anner/TP Android/LudoRJ/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/wamp64/www/TravailleDelio 2anner/TP Android/LudoRJ/app/src/main/res/layout-land/activity_bataille.xml" value="0.1" />
+        <entry key="..\:/wamp64/www/TravailleDelio 2anner/TP Android/LudoRJ/app/src/main/res/layout-land/activity_main.xml" value="0.23020833333333332" />
+        <entry key="..\:/wamp64/www/TravailleDelio 2anner/TP Android/LudoRJ/app/src/main/res/layout/activity_bataille.xml" value="0.36666666666666664" />
+        <entry key="..\:/wamp64/www/TravailleDelio 2anner/TP Android/LudoRJ/app/src/main/res/layout/activity_compter.xml" value="0.17831813576494426" />
+        <entry key="..\:/wamp64/www/TravailleDelio 2anner/TP Android/LudoRJ/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/wamp64/www/TravailleDelio 2anner/TP Android/LudoRJ/app/src/main/res/layout/activity_pendu.xml" value="0.36666666666666664" />
+        <entry key="..\:/wamp64/www/TravailleDelio 2anner/TP Android/LudoRJ/app/src/main/res/menu/menu_ludo.xml" value="0.5" />
+        <entry key="..\:/wamp64/www/TravailleDelio 2anner/TP Android/LudoRJ/app/src/main/res/xml/root_preferences.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

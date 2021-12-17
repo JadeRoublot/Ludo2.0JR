@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dico xmlns:android="http://schemas.android.com/apk/res/android">
+    <theme nom="fleurs">
+        <mot contenu="rose" points="3"></mot>
+        <mot contenu="hortensia" points="7"></mot>
+        <mot contenu="glycine" points="9"></mot>
+        <mot contenu="campanule" points="5"></mot>
+    </theme>
+
+    <theme nom="animaux">
+    <mot contenu="tigre" points="3"></mot>
+    <mot contenu="lion" points="2"></mot>
+    <mot contenu="girafe" points="5"></mot>
+    <mot contenu="gazelle" points="6"></mot>
+    </theme>
+</dico>
