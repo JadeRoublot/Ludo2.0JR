@@ -17,10 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import org.xmlpull.v1.XmlPullParser;
 
-// la classe Juge représente le gestionnaire de mots. Elle permet de :
-//   - lire les mots et thèmes
-//   - gérer le score par thème
-//   - donner un mot à trouver
+
 
 public class Juge {
     //générateur de nombres pseudo-aléatoires
@@ -70,7 +67,8 @@ public class Juge {
        lesThemes = DicoXml.getLesthemes(monXmlPullParser);
     }
 
-    //  si aucun thème sélectionné, sélectionner un thème au hasard
+
+   //  si aucun thème sélectionné, sélectionner un thème au hasard
     //  donner un mot au hasard dans le thème (sélectionné ou pris au hasard)
     public Mot donnerMot()  {
         if(numeroThemeSelectionne == -1){

@@ -53,7 +53,7 @@
             android:layout_centerInParent="true"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/buttonplay"
-            android:onClick="onClickbtJouerPendu"
+            android:onClick="onClickbtNouveauMot"
             android:text="JOUER"
             android:textColor="@color/white"
             android:textStyle="bold"
