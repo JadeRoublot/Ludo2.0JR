@@ -75,7 +75,7 @@ public class Juge {
             int indHasard = leHasard.nextInt(lesThemes.size()-1);
             Theme leThemeSelectionne = lesThemes.get(indHasard);
             indHasard = leHasard.nextInt(leThemeSelectionne.getLesMots().size()-1);
-    return leThemeSelectionne.getLesMots().get(indHasard);
+             return leThemeSelectionne.getLesMots().get(indHasard);
         } else {
             Theme leThemeSelectionne = lesThemes.get(numeroThemeSelectionne);
             int indHasard = leHasard.nextInt(leThemeSelectionne.getLesMots().size()-1);

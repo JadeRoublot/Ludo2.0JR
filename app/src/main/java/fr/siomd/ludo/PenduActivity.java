@@ -93,9 +93,6 @@ public class PenduActivity extends AppCompatActivity {
 
     }
 
-
-
-
     private int getImageResource(int nbImgCorde) {
         String nomImgCorde= String.format("cor%d", nbImgCorde);
         int resId = getResources().getIdentifier(nomImgCorde, "drawable", "fr.siomd.ludo");
