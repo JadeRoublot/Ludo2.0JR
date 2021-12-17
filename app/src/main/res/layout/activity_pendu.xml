@@ -27,7 +27,7 @@
             android:gravity="center"
             android:text="@string/tvPendu"
             android:textColor="#B71C1C"
-            android:textSize="25dp" />
+            android:textSize="15dp" />
 
         <TextView
             android:id="@+id/tvScore"
@@ -37,7 +37,7 @@
             android:layout_alignParentRight="true"
             android:text="0"
             android:textColor="@android:color/holo_red_dark"
-            android:textSize="25dp" />
+            android:textSize="15dp" />
 
     </RelativeLayout>
 
@@ -48,8 +48,8 @@
 
         <Button
             android:id="@+id/btJouer3"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
             android:layout_centerInParent="true"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/buttonplay"
@@ -69,8 +69,8 @@
 
         <ImageView
             android:id="@+id/imgPendu"
-            android:layout_width="300dp"
-            android:layout_height="320dp"
+            android:layout_width="140dp"
+            android:layout_height="160dp"
             android:layout_centerInParent="true"
             android:adjustViewBounds="true"
             android:contentDescription="Le pendu"
@@ -91,12 +91,12 @@
             android:id="@+id/tvMot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
             android:text="@string/tvMot"
             android:textColor="#FB0000"
-            android:textSize="25dp" />
+            android:textSize="15dp" />
 
     </RelativeLayout>
 
@@ -108,8 +108,8 @@
 
         <Button
             android:id="@+id/btA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:background="@drawable/buttonlettre"
             android:minWidth="35dp"
@@ -121,8 +121,8 @@
 
         <Button
             android:id="@+id/btB"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -134,8 +134,8 @@
 
         <Button
             android:id="@+id/btC"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -148,8 +148,8 @@
 
         <Button
             android:id="@+id/btD"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -162,8 +162,8 @@
 
         <Button
             android:id="@+id/btE"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -176,8 +176,8 @@
 
         <Button
             android:id="@+id/btF"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -190,8 +190,8 @@
 
         <Button
             android:id="@+id/btG"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -214,8 +214,8 @@
 
         <Button
             android:id="@+id/btH"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -227,8 +227,8 @@
 
         <Button
             android:id="@+id/btI"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -240,8 +240,8 @@
 
         <Button
             android:id="@+id/btJ"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -253,8 +253,8 @@
 
         <Button
             android:id="@+id/btK"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -266,8 +266,8 @@
 
         <Button
             android:id="@+id/btL"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -279,8 +279,8 @@
 
         <Button
             android:id="@+id/btM"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -292,8 +292,8 @@
 
         <Button
             android:id="@+id/btN"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -315,8 +315,8 @@
 
         <Button
             android:id="@+id/btO"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -329,8 +329,8 @@
 
         <Button
             android:id="@+id/btP"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -342,8 +342,8 @@
 
         <Button
             android:id="@+id/btQ"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -355,8 +355,8 @@
 
         <Button
             android:id="@+id/btR"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -368,8 +368,8 @@
 
         <Button
             android:id="@+id/btS"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -381,8 +381,8 @@
 
         <Button
             android:id="@+id/btT"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -394,8 +394,8 @@
 
         <Button
             android:id="@+id/btU"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -415,8 +415,8 @@
 
         <Button
             android:id="@+id/btV"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -428,8 +428,8 @@
 
         <Button
             android:id="@+id/btW"
-            android:layout_width="wrap_content"
-            android:layout_height="53dp"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:background="@drawable/buttonlettre"
             android:minWidth="35dp"
@@ -442,8 +442,8 @@
 
         <Button
             android:id="@+id/btX"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -455,8 +455,8 @@
 
         <Button
             android:id="@+id/btY"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:background="@drawable/buttonlettre"
             android:minWidth="35dp"
@@ -468,8 +468,8 @@
 
         <Button
             android:id="@+id/btZ"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="2dp"
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
@@ -492,7 +492,7 @@
             android:layout_height="wrap_content"
             android:text="FAUX :"
             android:textColor="@android:color/holo_red_dark"
-            android:textSize="25dp" />
+            android:textSize="15dp" />
 
         <TextView
             android:id="@+id/tvQui"
@@ -501,7 +501,7 @@
             android:layout_marginLeft="5dp"
             android:text="@string/tvQui"
             android:textColor="@android:color/holo_red_dark"
-            android:textSize="20dp"
+            android:textSize="15dp"
             tools:ignore="TextContrastCheck" />
 
 

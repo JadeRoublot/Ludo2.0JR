@@ -15,14 +15,14 @@
     </theme>
 
     <theme nom="sanglant">
-        // <mot contenu="torture" points="2"></mot>
+        <mot contenu="torture" points="2"></mot>
         <mot contenu="billot" points="3"></mot>
         <mot contenu="etranglement" points="6"></mot>
         <mot contenu="evisceration" points="7"></mot>
     </theme>
 
     <theme nom="hunchback">
-        // <mot contenu="clopin" points="2"></mot>
+        <mot contenu="clopin" points="2"></mot>
         <mot contenu="frollo" points="3"></mot>
         <mot contenu="phoebus" points="4"></mot>
         <mot contenu="esmeralda" points="5"></mot>

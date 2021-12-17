@@ -28,7 +28,7 @@ public class Theme {
     }
 
     public void ajouterMot(Mot pMot) {
-        lesMots = lesMots ;
+        lesMots.add(pMot) ;
     }
 
     // retourne le nombre total de points du thème

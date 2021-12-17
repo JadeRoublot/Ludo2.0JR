@@ -9,7 +9,7 @@ package fr.siomd.ludo.entity;
 import java.util.ArrayList;
 
 public class Bourreau {
-    public static final int MAX_REBUT = 8;    // nombre maximum de lettres au rebut
+    public static final int MAX_REBUT = 4;    // nombre maximum de lettres au rebut
 
     private Juge leJuge;           // le juge
     private Mot leMot;             // mot à chercher de type Mot

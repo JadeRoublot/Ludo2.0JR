@@ -20,7 +20,7 @@ import fr.siomd.ludo.databinding.ActivityPenduBinding;
 
 public class PenduActivity extends AppCompatActivity {
     private static final String TAG = "Pendu";
-    private static final int NB_ESSAY = 4;
+
     private ActivityPenduBinding ui;
     private ArrayList<Theme> lesThemes;
     private String[] tbAnecdote = {"Jouer au pendu et changer de vie !", "Le pendu est un jeu a jouer au moin une foix dans une vie", "Je suis derrier toi", "trois, de , un , pret? PENDU !", "quelle jeux tendus pour une simple jeux de pendu"};
@@ -60,16 +60,20 @@ public class PenduActivity extends AppCompatActivity {
         // évidemment dans votre jeu de pendu, au lieu de faire un toast, il convient de traiter la lettre proposée
         int nbCord = 0;
         leBourreauClopin.executer(lalettre.charAt(0));
+        ui.tvMot.setText(leBourreauClopin.getLeMotEnCours());
+        ui.tvQui.setText(leBourreauClopin.getLesLettresAuRebut ());
         String message = "";
         // si erreur (lettre non trouvée dans le mot)  adapter image pendu
-        if (leBourreauClopin.getLesLettresAuRebut () == lalettre){
+        if (leBourreauClopin.leMotChercheTableau() == lalettre){
             ui.tvQui.setText(leBourreauClopin.getLesLettresAuRebut ());
             nbCord++;
             ui.imgPendu.setImageResource(getImageResource(nbCord));
 
         // si gagné --> afficher  "GAGNE" et afficher le score (leJuge.getScore())
          } else if ( leBourreauClopin.isGagne() == true) {
+
             ui.tvScore.setText(leJugeFrollo.getScore());
+
             message = String.format(Locale.getDefault(), "GAGNER ");
 
         } else if (leBourreauClopin.isPerdu() == true) {
