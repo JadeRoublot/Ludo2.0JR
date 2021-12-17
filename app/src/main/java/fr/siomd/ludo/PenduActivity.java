@@ -26,6 +26,7 @@ public class PenduActivity extends AppCompatActivity {
     private Bourreau leBourreauClopin;
     private Juge leJugeFrollo;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
