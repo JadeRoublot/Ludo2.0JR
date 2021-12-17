@@ -41,6 +41,7 @@ public class PenduActivity extends AppCompatActivity {
         // afficher le mot en cours (avec des _ pour chaque lettre non trouvée)
         ui.tvPendu.setText (tbAnecdote[indHasard]);
         ui.tvMot.setText(leBourreauClopin.getLeMotEnCours());
+        ui.btJouer3.setEnabled(true);
 
     }
 
@@ -56,7 +57,7 @@ public class PenduActivity extends AppCompatActivity {
         if (){
             ui.tvQui.setText(leBourreauClopin.getLesLettresAuRebut ());
             nbCord++;
-            ui.imgPendu.setImageResource(R.drawable.(("cor%d"),nbCord) );
+            ui.imgPendu.setImageResource(getImageResource(nbCord));
 
         // si gagné --> afficher  "GAGNE" et afficher le score (leJuge.getScore())
          } else if ( leBourreauClopin.isGagne() == true) {
@@ -87,7 +88,7 @@ public class PenduActivity extends AppCompatActivity {
 
 
 
-    private int getImageResource(String nbImgCorde) {
+    private int getImageResource(int nbImgCorde) {
         String nomImgCorde= String.format("cor%d", nbImgCorde);
         int resId = getResources().getIdentifier(nomImgCorde, "drawable", "fr.siomd.ludo");
         if (resId != 0) {
