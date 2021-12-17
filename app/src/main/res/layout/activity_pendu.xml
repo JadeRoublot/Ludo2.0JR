@@ -29,15 +29,6 @@
             android:textColor="#B71C1C"
             android:textSize="15dp" />
 
-        <TextView
-            android:id="@+id/tvScore"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:text="0"
-            android:textColor="@android:color/holo_red_dark"
-            android:textSize="15dp" />
 
     </RelativeLayout>
 
@@ -99,6 +90,9 @@
             android:textSize="15dp" />
 
     </RelativeLayout>
+
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -503,7 +497,25 @@
             android:textColor="@android:color/holo_red_dark"
             android:textSize="15dp"
             tools:ignore="TextContrastCheck" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
 
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
 
 
     </LinearLayout>

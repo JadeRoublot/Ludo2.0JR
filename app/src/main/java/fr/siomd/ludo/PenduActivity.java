@@ -26,7 +26,7 @@ public class PenduActivity extends AppCompatActivity {
     private String[] tbAnecdote = {"Jouer au pendu et changer de vie !", "Le pendu est un jeu a jouer au moin une foix dans une vie", "Je suis derrier toi", "trois, de , un , pret? PENDU !", "quelle jeux tendus pour une simple jeux de pendu"};
     private Bourreau leBourreauClopin;
     private Juge leJugeFrollo;
-
+    private int nbCord;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +43,7 @@ public class PenduActivity extends AppCompatActivity {
         ui.tvMot.setText(leBourreauClopin.getLeMotEnCours());
         ui.btJouer3.setEnabled(true);
         lesThemes = DicoXml.getLesthemes(getResources().getXml(R.xml.dico));
+        nbCord = 0;
         // afficher liste juste pour vérification
         for (Theme unTheme : lesThemes){
             Log.i("DICO-liste", "Theme = " + unTheme.getNom());
@@ -58,7 +59,7 @@ public class PenduActivity extends AppCompatActivity {
         CharSequence lalettre = ((Button) laVue).getText();
 
         // évidemment dans votre jeu de pendu, au lieu de faire un toast, il convient de traiter la lettre proposée
-        int nbCord = 0;
+
         leBourreauClopin.executer(lalettre.charAt(0));
         ui.tvMot.setText(leBourreauClopin.getLeMotEnCours());
         ui.tvQui.setText(leBourreauClopin.getLesLettresAuRebut ());
@@ -80,8 +81,8 @@ public class PenduActivity extends AppCompatActivity {
             // si perdu --> afficher  "PERDU" et adapter image pendu
             ui.imgPendu.setImageResource(R.drawable.cor5);
             message = String.format(Locale.getDefault(), "PERDU ");
-
         }
+
         // si gagné ou perdu alors désactiver les boutons lettre (ou  traiter le cas gagne/perdu dans le code onClickbtLettre avant le reste)
 
     }
