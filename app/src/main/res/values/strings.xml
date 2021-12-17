@@ -33,6 +33,11 @@
     <string name="edtNombrecitrouille2"> . . . </string>
     <string name="txtReponses2">Tes réponses correctes</string>
     <string name="txtNbRepCorrectes2">0 / 15</string>
+    <!-- pendu -->
+    <string name="btJouer3">Jouer</string>
+    <string name="tvPendu">  . . . </string>
+    <string name="tvMot">  . . . </string>
+    <string name="tvQui"> . . . </string>
     <!-- préférences-->
     <string name="prefs_mes_parametres">Mes paramètres</string>
     <string name="prefs_theme">Thème vert et rose</string>

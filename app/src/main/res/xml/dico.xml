@@ -13,4 +13,12 @@
     <mot contenu="girafe" points="5"></mot>
     <mot contenu="gazelle" points="6"></mot>
     </theme>
+
+    <theme nom="Sanglant">
+        // <mot contenu="torture" points="3"></mot>
+        <mot contenu="billot" points="2"></mot>
+        <mot contenu="etranglement" points="5"></mot>
+        <mot contenu="evisceration" points="6"></mot>
+    </theme>
+
 </dico>

@@ -5,7 +5,7 @@ public class Theme {
     private String nom;
     private ArrayList<Mot> lesMots;
 
-    public Theme(String pNom) {
+    public  Theme(String pNom) {
         nom = pNom;
         lesMots = new ArrayList<Mot>();
     }
@@ -18,6 +18,7 @@ public class Theme {
         nom = nom;
     }
 
+
     public ArrayList<Mot> getLesMots() {
         return lesMots;
     }
@@ -27,6 +28,15 @@ public class Theme {
     }
 
     public void ajouterMot(Mot pMot) {
-        lesMots.add(pMot);
+        lesMots = lesMots ;
+    }
+
+    // retourne le nombre total de points du thème
+    public int getValeur() {
+        int sommeValeur = 0 ;
+        for (Mot unMot : lesMots){
+            sommeValeur += unMot.getNbPoints() ;
+        }
+        return sommeValeur ;
     }
 }

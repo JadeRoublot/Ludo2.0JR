@@ -11,5 +11,7 @@
     <color name="violet">#52229e</color>
     <color name="bleuClair">#88e2ec</color>
     <color name="rose">#fadcfc</color>
+    <color name="toucheplay">"@drawable/buttonplay"</color>
+    <color name="touchelettre">"@drawable/buttonlettre"</color>
 
 </resources>
