@@ -21,4 +21,11 @@
         <mot contenu="evisceration" points="6"></mot>
     </theme>
 
+    <theme nom="Hunchback">
+        // <mot contenu="clopin" points="3"></mot>
+        <mot contenu="frollo" points="2"></mot>
+        <mot contenu="Phoebus" points="5"></mot>
+        <mot contenu="evisceration" points="6"></mot>
+    </theme>
+
 </dico>

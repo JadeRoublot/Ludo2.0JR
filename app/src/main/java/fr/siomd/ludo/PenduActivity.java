@@ -35,48 +35,45 @@ public class PenduActivity extends AppCompatActivity {
     // récupérer le dictionnaire avec les thèmes
         leJugeFrollo = new Juge(getResources().getXml(R.xml.dico));
         leBourreauClopin = new Bourreau(leJugeFrollo);
-    lesThemes = DicoXml.getLesthemes(getResources().getXml(R.xml.dico));
-    // afficher liste juste pour vérification
-    for (Theme unTheme : lesThemes) {
-        Log.i("DICO-liste", "Theme = " + unTheme.getNom());
-        for (Mot unMot : unTheme.getLesMots()) {
-            Log.i("DICO-liste", "Mot = " + unMot.getContenu() + " - " +
-                    unMot.getNbPoints());
-        }
-    }
-        demarrerPendu();
-  }
-
-    private void demarrerPendu() {
-        //initialisation des parametre
-        leBourreauClopin.demarrer();
         Random leHasard = new Random();
         int indHasard = leHasard.nextInt(tbAnecdote.length-1);
-
-        //application des parametre
-        ui.btJouer3.setEnabled(true);
+        // afficher le mot en cours (avec des _ pour chaque lettre non trouvée)
         ui.tvPendu.setText (tbAnecdote[indHasard]);
         ui.tvMot.setText(leBourreauClopin.getLeMotEnCours());
-        ui.tvQui.setText(leBourreauClopin.getLesLettresAuRebut ());
-    }
-
-    public void onClickbtNouveauPendu( View arg0){demarrerPendu();}
-
-
-    public void  onClickbtJouerPendu(View arg0){
-
 
     }
 
-    private void traitementReponsePendu(){
+    public void onClickbtLettre(View laVue) {
+
+        CharSequence lalettre = ((Button)laVue).getText();
+
+        // évidemment dans votre jeu de pendu, au lieu de faire un toast, il convient de traiter la lettre proposée
+
+        leBourreauClopin.executer(lalettre.charAt(0));
+
+        // si erreur (lettre non trouvée dans le mot)  adapter image pendu
+
+        // si gagné --> afficher  "GAGNE" et afficher le score (leJuge.getScore())
+
+        // si perdu --> afficher  "PERDU" et adapter image pendu
+
+        // si gagné ou perdu alors désactiver les boutons lettre (ou  traiter le cas gagne/perdu dans le code onClickbtLettre avant le reste)
 
     }
 
- public void onClickbtLettre (View laVue) {
-       CharSequence lalettre = ((Button)laVue).getText();
-        Toast toast = Toast.makeText(getApplicationContext(), "lettre = " + lalettre, Toast.LENGTH_LONG);
-       toast.show();
+    public void onClickbtNouveauMot(View laVue) {
+        // démarrer le bourreau
+        leBourreauClopin.demarrer();
+        // afficher le mot en cours
+        ui.tvMot.setText(leBourreauClopin.getLeMotEnCours());
+        // afficher image pendu du début
+
+        // activer les boutons lettres s'ils ont été désactivés
+
     }
+
+
+
 
     private int getImageResource(String nbImgCorde) {
         String nomImgCorde= String.format("cor%d", nbImgCorde);
