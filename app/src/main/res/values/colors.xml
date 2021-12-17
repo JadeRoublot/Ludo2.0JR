@@ -11,7 +11,12 @@
     <color name="violet">#52229e</color>
     <color name="bleuClair">#88e2ec</color>
     <color name="rose">#fadcfc</color>
-    <color name="toucheplay">"@drawable/buttonplay"</color>
-    <color name="touchelettre">"@drawable/buttonlettre"</color>
+
+    <!-- Supposer etre : -->
+    <!-- <color name="toucheplay">"@drawable/buttonplay"</color>-->
+    <!--  <color name="touchelettre">"@drawable/buttonlettre"</color>-->
+
+    <color name="toucheplay">#FF000000</color>
+     <color name="touchelettre">#FF000000</color>
 
 </resources>

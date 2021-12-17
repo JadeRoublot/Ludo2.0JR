@@ -42,6 +42,14 @@ public class PenduActivity extends AppCompatActivity {
         ui.tvPendu.setText (tbAnecdote[indHasard]);
         ui.tvMot.setText(leBourreauClopin.getLeMotEnCours());
         ui.btJouer3.setEnabled(true);
+        lesThemes = DicoXml.getLesthemes(getResources().getXml(R.xml.dico));
+        // afficher liste juste pour vérification
+        for (Theme unTheme : lesThemes){
+            Log.i("DICO-liste", "Theme = " + unTheme.getNom());
+            for (Mot unMot : unTheme.getLesMots()) {
+                Log.i("DICO-liste", "Mot = " + unMot.getContenu() + " - " + unMot.getNbPoints());
+            }
+        }
 
     }
 
@@ -54,7 +62,7 @@ public class PenduActivity extends AppCompatActivity {
         leBourreauClopin.executer(lalettre.charAt(0));
         String message = "";
         // si erreur (lettre non trouvée dans le mot)  adapter image pendu
-        if (){
+        if (leBourreauClopin.getLesLettresAuRebut () == lalettre){
             ui.tvQui.setText(leBourreauClopin.getLesLettresAuRebut ());
             nbCord++;
             ui.imgPendu.setImageResource(getImageResource(nbCord));

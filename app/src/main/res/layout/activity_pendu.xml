@@ -474,7 +474,6 @@
             android:minWidth="35dp"
             android:onClick="onClickbtLettre"
             android:background="@drawable/buttonlettre"
-            android:scr="@drawable/buttonlettre"
             android:text="Z"
             app:backgroundTint="@color/touchelettre"
             android:textColor="@color/white"
