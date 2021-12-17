@@ -157,14 +157,15 @@
             android:gravity="center"
             android:text="0 point"
             android:layout_alignParentStart="true" />
+
         <TextView
             android:id="@+id/tvScore2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:gravity="center"
-            android:text="0 point"
-            android:layout_alignParentEnd="true" />
+            android:text="0 point" />
 
     </RelativeLayout>
 
@@ -190,15 +191,16 @@
             android:text="Tes réponses correctes"
             android:textColor="@color/violet"
             android:textSize="18sp" />
+
         <TextView
             android:id="@+id/tvNbRepCorrectes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:text="0 / 26"
             android:textColor="@color/violet"
-            android:textSize="18sp"
-            android:layout_alignParentEnd="true" />
+            android:textSize="18sp" />
 
     </RelativeLayout>
 </LinearLayout>

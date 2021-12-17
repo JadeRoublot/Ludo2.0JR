@@ -1,5 +1,6 @@
 package fr.siomd.ludo;
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Random;
 
 import fr.siomd.ludo.dataaccess.DicoXml;
@@ -45,18 +46,29 @@ public class PenduActivity extends AppCompatActivity {
 
     public void onClickbtLettre(View laVue) {
 
-        CharSequence lalettre = ((Button)laVue).getText();
+        CharSequence lalettre = ((Button) laVue).getText();
 
         // évidemment dans votre jeu de pendu, au lieu de faire un toast, il convient de traiter la lettre proposée
-
+        int nbCord = 0;
         leBourreauClopin.executer(lalettre.charAt(0));
-
+        String message = "";
         // si erreur (lettre non trouvée dans le mot)  adapter image pendu
+        if (){
+            ui.tvQui.setText(leBourreauClopin.getLesLettresAuRebut ());
+            nbCord++;
+            ui.imgPendu.setImageResource(R.drawable.(("cor%d"),nbCord) );
 
         // si gagné --> afficher  "GAGNE" et afficher le score (leJuge.getScore())
+         } else if ( leBourreauClopin.isGagne() == true) {
+            ui.tvScore.setText(leJugeFrollo.getScore());
+            message = String.format(Locale.getDefault(), "GAGNER ");
 
-        // si perdu --> afficher  "PERDU" et adapter image pendu
+        } else if (leBourreauClopin.isPerdu() == true) {
+            // si perdu --> afficher  "PERDU" et adapter image pendu
+            ui.imgPendu.setImageResource(R.drawable.cor5);
+            message = String.format(Locale.getDefault(), "PERDU ");
 
+        }
         // si gagné ou perdu alors désactiver les boutons lettre (ou  traiter le cas gagne/perdu dans le code onClickbtLettre avant le reste)
 
     }

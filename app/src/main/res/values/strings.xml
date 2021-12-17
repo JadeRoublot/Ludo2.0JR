@@ -38,6 +38,7 @@
     <string name="tvPendu">  . . . </string>
     <string name="tvMot">  . . . </string>
     <string name="tvQui"> . . . </string>
+    <string name="tvScore"> 0 </string>
     <!-- préférences-->
     <string name="prefs_mes_parametres">Mes paramètres</string>
     <string name="prefs_theme">Thème vert et rose</string>
